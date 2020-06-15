@@ -1,0 +1,14 @@
+#endpoint: ${env:PRISMA_ENDPOINT}
+#endpoint: /gsa-prod/prod
+#endpoint: https://gsa2-b11cd1f511.herokuapp.com
+#endpoint: https://gsa2-b11cd1f511.herokuapp.com/gsa_2/prod
+#endpoint: https://gsa2-b11cd1f511.herokuapp.com/gsa_3/prod
+#endpoint: https://gsa2-b11cd1f511.herokuapp.com/gsa_prod/prod
+#endpoint: https://gsa2-b11cd1f511.herokuapp.com/gsa_prod/prod
+endpoint: https://gsa2-b11cd1f511.herokuapp.com/gsa_2/prod
+#endpoint: https://sick-fits-production.herokuapp.com/sick-fits-prod/prod
+datamodel: datamodel.graphql
+#secret: ${env:PRISMA_SECRET}
+hooks:
+  post-deploy:
+      - graphql get-schema -p prisma
