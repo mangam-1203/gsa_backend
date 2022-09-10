@@ -1,0 +1,17 @@
+id = 95a48ab0-2473-48f6-bb6e-f41aa045c25f
+
+[relations]
+
+[relations.collections]
+rootDirectory = postman/collections
+files[] = {"id":"1e6ba1c4-eede-4309-b97a-0caf119465ef","path":"1a087d54-76b5-4d52-af98-25cdc636a178_documentation.json","metaData":{}}
+files[] = {"id":"f1d55c5d-201f-4b9d-934d-49b692257384","path":"New Collection_639685-f1d55c5d-201f-4b9d-934d-49b692257384.json","metaData":{}}
+
+[relations.collections.metaData]
+
+[relations.apiDefinition]
+rootDirectory = postman/schemas
+files[] = {"path":"3c787cf3-9952-4ee7-9563-1462848b0994.schema","metaData":{}}
+
+[relations.apiDefinition.metaData]
+type = openapi:3
